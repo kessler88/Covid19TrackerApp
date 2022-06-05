@@ -4,10 +4,11 @@ import { fetchDailyData } from "../../api"; //US daily data.
 import styles from "./Chart.module.css";
 import Chart from 'chart.js/auto';
 
-
 const MyChart = ({ data: { confirmed, recovered, deaths }, country }) => {
-  const [dailyData, setDailyData] = useState({});
   
+  const [dailyData, setDailyData] = useState({});
+
+  //fetch daily data from api, then set state.
   useEffect(() => {
     const fetchMyAPI = async () => {
       const initialDailyData = await fetchDailyData();

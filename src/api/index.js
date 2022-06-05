@@ -5,8 +5,8 @@ const globalUrl = "https://disease.sh/v3/covid-19/all";
 
 export const fetchGlobalData = async () => {
   try {
-    const {data: {cases,recovered,deaths }} = await axios.get(globalUrl);
-    return {cases, recovered,deaths } ;
+    const {data: {cases,recovered,deaths, active, todayCases, todayDeaths  }} = await axios.get(globalUrl);
+    return {cases, recovered,deaths,active,todayCases,todayDeaths } ;
   } catch (error) {
     return error;
   }
@@ -49,6 +49,7 @@ export const fetchDailyData = async () => {
   }
 };
 
+//  fetches the data according to each country.
 export const fetchCountries = async () => {
   try {
     const {

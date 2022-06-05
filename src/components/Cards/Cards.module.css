@@ -18,6 +18,17 @@
   border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }
 
+.todayDeaths {
+  border-bottom: 10px solid rgba(84, 0, 0, 0.7);
+}
+
+.todayActive {
+  border-bottom: 10px solid rgba(0, 0, 171, 0.7);
+}
+
+.active {
+  border-bottom: 10px solid rgba(255, 230, 3, 0.5);
+}
 /* tablet and mobile devices */
 @media (max-width: 770px) {
   .card {
