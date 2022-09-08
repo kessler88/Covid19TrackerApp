@@ -1,5 +1,5 @@
 # Covid19TrackerApp
-Live Demo: https://covid-19-apptracker.herokuapp.com/
+[Live Site](https://covid-19-apptracker.herokuapp.com/)
 
 The APIs I used: 
 - https://covid19.mathdro.id/api
