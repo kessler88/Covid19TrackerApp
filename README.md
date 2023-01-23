@@ -1,5 +1,5 @@
 # Covid19TrackerApp
-[Live Site](https://covid-19-apptracker.herokuapp.com/)
+[Live Site](https://mycovid19tracker-stats.netlify.app/)
 
 The APIs I used: 
 - https://covid19.mathdro.id/api
